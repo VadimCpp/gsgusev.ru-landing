@@ -1,3 +1,7 @@
 .bg-even {
   background-color: rgb(230, 230, 230);
 }
+.btn-wrap {
+  word-break: break-word;
+  white-space: normal;
+}
