@@ -1,32 +1,15 @@
 # gsgusev.ru
 
-> Неофициальный сайт коттеджного поселка Технополис GS
+> Лендинг неофициального сайта коттеджного поселка Технополис GS. Основной проект переехал на поддомен [info.gsgusev.ru](http://info.gsgusev.ru/)
 
-Данный проект переехал на поддомен [info.gsgusev.ru](http://info.gsgusev.ru/)
+## Разделы
 
-## Build Setup
+Лендинг содержит такую информацию:
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-## Stack
-
-* [Vue.js](https://vuejs.org/)
-* [SASS](http://sass-lang.com/)
-
-## Features
-
-* [vue2-leaflet](https://www.npmjs.com/package/vue2-leaflet)
+* раздел полезной информации
+* описание поселка
+* рассказ о сотрудниках GS Labs
+* раздел, посвященный клубу триалона
+* информация о детском саде
+* рассказ о Калиниграде
+* раздел "вакансии"
