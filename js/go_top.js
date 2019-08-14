@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
     $("#go-top").click(function() {
         $("html, body").animate({
             scrollTop:0
-        },"slow");
+        }, 0);
     });
 
     $(window).scroll(function () {
