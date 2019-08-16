@@ -6,7 +6,7 @@
 
 В этом проекте выбран самый базовый стек веб технологий:
 
-* JavaScript ES5;
+* jQuery;
 * HTML5;
 * Bootstrap stylesheets.
 
