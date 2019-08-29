@@ -1,9 +1,7 @@
 jQuery(document).ready(function() {
 
     $("#go-top").click(function() {
-        $("html, body").animate({
-            scrollTop:0
-        }, 0);
+        window.location.href = "#"
     });
 
     $(window).scroll(function () {
