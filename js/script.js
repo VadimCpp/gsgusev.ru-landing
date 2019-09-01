@@ -28,5 +28,4 @@ jQuery(document).ready(function() {
             $navBar.removeClass('border-b');
         }
     });
-
 });
