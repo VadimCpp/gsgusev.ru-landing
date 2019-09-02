@@ -4,16 +4,18 @@ jQuery(document).ready(function() {
         window.location.href = "#"
     });
 
-    var scrollPos = $(this).scrollTop();
     var $navBar = $('.sticky-top');
     var navPos = $navBar.offset().top;
     $(window).scroll(function () {
+        var scrollPos = $(this).scrollTop();
+
         if (scrollPos > 200) {
             $("#go-top").fadeIn();
         }
         else {
             $("#go-top").fadeOut();
         }
+
 
         if (scrollPos >= navPos) {
             $navBar.addClass('border-b');
