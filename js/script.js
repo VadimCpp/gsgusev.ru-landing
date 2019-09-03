@@ -7,14 +7,16 @@ jQuery(document).ready(function() {
     var $navBar = $('.sticky-top');
     var navPos = $navBar.offset().top;
     $(window).scroll(function () {
-        if ($(this).scrollTop()>200) {
+        var scrollPos = $(this).scrollTop();
+
+        if (scrollPos > 200) {
             $("#go-top").fadeIn();
         }
         else {
             $("#go-top").fadeOut();
         }
 
-        var scrollPos = $(this).scrollTop();
+
         if (scrollPos >= navPos) {
             $navBar.addClass('border-b');
         } else {
